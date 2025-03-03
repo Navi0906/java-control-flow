@@ -9,6 +9,7 @@ class SmallestNumber{
 		System.out.print("Enter the third number: ");
 		int number3 = sc.nextInt();
 		
+		// checking if the first number is smallest or not
 		boolean smallest = (number1<number2)&&(number1<number3);
 		System.out.print("Is the first number the smallest? "+smallest);
 	}

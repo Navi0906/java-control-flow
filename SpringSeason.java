@@ -7,6 +7,8 @@ class SpringSeason{
 		System.out.print("Enter the date: ");
 		int day = sc.nextInt();
 		
+		// checking if the input date and month is of spring season or not
+		
 		if((month == 3 && day>=10 && day<=31) ||
 		(month == 4 && day>= 1 && day<=30) ||
 		(month == 5 && day>= 1 && day<=31) ||

@@ -5,6 +5,7 @@ class PositiveNegative{
 		System.out.print("Enter the number: ");
 		int number = sc.nextInt();
 		
+		// Checking the number is positive, negative or zero
 		if(number<0){
 			System.out.print("negative");
 		}

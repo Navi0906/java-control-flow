@@ -4,6 +4,8 @@ class VoterAge{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter your age: ");
 		int age = sc.nextInt();
+		
+		// checking if the person of given age can vote or not
 		if(age<18){
 			System.out.print("The person cannot vote");
 		}

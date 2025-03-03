@@ -7,8 +7,9 @@ public class OddEvenNumbers {
         System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
 
+		// Checking if the number is even or odd or invalid.
         if (number < 1) {
-            System.out.println("Please enter a natural number greater than 0.");
+            System.out.println("Invalid Number");
         } else {
             for (int i = 1; i <= number; i++) {
                 if (i % 2 == 0) {

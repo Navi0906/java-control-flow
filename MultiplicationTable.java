@@ -7,6 +7,7 @@ public class MultiplicationTable {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
+		// using for loop for printing basic multiplication table from 6 to 9
         for (int i = 6; i <= 9; i++) {
             System.out.println(number + " * " + i + " = " + (number * i));
         }

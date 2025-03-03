@@ -13,6 +13,7 @@ public class LargestNumberCheck {
         System.out.print("Enter third number: ");
         int number3 = sc.nextInt();
 
+		// Checking which one is the largest or equal to the other two numbers
         boolean isFirstLargest = (number1 >= number2) && (number1 >= number3);
         boolean isSecondLargest = (number2 >= number1) && (number2 >= number3);
         boolean isThirdLargest = (number3 >= number1) && (number3 >= number2);

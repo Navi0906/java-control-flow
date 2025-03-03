@@ -4,6 +4,8 @@ class RocketLaunch{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the count down: ");
 		int counter = sc.nextInt();
+		
+		// while loop for countdown
 		while(counter!=0){
 			System.out.println(counter);
 			counter--;

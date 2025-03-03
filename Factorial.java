@@ -5,6 +5,8 @@ class Factorial{
 		System.out.print("Enter the number :");
 		int number = sc.nextInt();
 		int result = 1;
+		
+		// Calculating the factorial of the given number
 		if(number>0){
 			while(number>0){
 				result *= number;

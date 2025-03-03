@@ -5,6 +5,8 @@ class SumOfNumbers{
 		double sum = 0.0;
 		System.out.print("Enter the number: ");
 		double number = sc.nextDouble();
+		
+		// sum of user input number until 0 or negative is entered
 		while(number!=0){
 			System.out.print("Enter the number you want to add or enter 0 to display the sum: ");
 			sum += number;

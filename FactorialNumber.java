@@ -4,6 +4,8 @@ class FactorialNumber{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number :");
 		int number = sc.nextInt();
+		
+		// Calculating the factorial of the given number using for loop.
 		if (number < 0) {
             System.out.println("Factorial is not defined for negative numbers.");
         } else {
