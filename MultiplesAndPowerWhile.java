@@ -21,23 +21,6 @@ class MultiplesAndPowerWhile {
             System.out.println("Invalid");
         }
 
-        // Finding the power of a number
-        System.out.print("Enter a positive integer for the base: ");
-        int base = sc.nextInt();
-        System.out.print("Enter a positive integer for the power: ");
-        int power = sc.nextInt();
-        
-        // Check if both base and power are positive integers
-        if (base > 0 && power >= 0) {
-            int result = 1;
-            int counter = 0;
-            while (counter < power) {
-                result *= base;
-                counter++;
-            }
-            System.out.println(base + " raised to the power of " + power + " is: " + result);
-        } else {
-            System.out.println("Please enter positive integers for both base and power.");
-        }        
+            
     }
 }
